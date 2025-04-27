@@ -11,7 +11,7 @@ const Sample = () => {
         const today = new 
         Date().toLocaleDateString();
         const newTodo = {task,date:today};
-        setTodos([...todos, newTodo]); // ✅ This adds the new task to the list properly
+        setTodos([...todos, newTodo]); 
         setTask("");
     };
 
@@ -25,7 +25,7 @@ return(
         </Typography>
 
         <TextField
-        label =" Enter  a task"
+        label =" Enter a task"
         value = {task}
         onChange={(e)=>setTask(e.target.value)}
         />
