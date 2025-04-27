@@ -117,8 +117,6 @@ function Nature() {
       </form>
     </Container>
     </center>
-
-  
     </div>
   );
 }
